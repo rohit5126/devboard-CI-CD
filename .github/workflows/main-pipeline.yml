@@ -30,7 +30,7 @@ jobs:
       docker-name: rohit5126
       context: ${{ matrix.repo }}
     secrets: 
-      docker_username: ${{ vars.DOCKER_USER }}
+      docker_username: ${{ vars.DOCKER_USERNAME }}
       docker_password: ${{ secrets.DOCKER_TOKEN }}
     
     
